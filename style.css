@@ -1,0 +1,73 @@
+.Header {
+  grid-area: header;
+}
+.Nav {
+  grid-area: nav;
+}
+.Section {
+  grid-area: section;
+}
+.Aside {
+  grid-area: aside;
+}
+.Footer {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "nav nav nav nav nav nav"
+    "section section section aside aside aside"
+    "footer footer footer footer footer footer";
+  gap: 10px;
+  background-color: #f3e521;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.Section {
+  vertical-align: middle;
+  text-align: center;
+  height: 300px;
+}
+
+.Aside {
+  vertical-align: middle;
+  text-align: center;
+  height: 300px;
+}
+
+.Article {
+  vertical-align: middle;
+  text-align: center;
+  height: 200px;
+  background-color: rgb(208, 255, 0);
+  text-align: center;
+}
+
+.h3{
+    vertical-align: middle;
+    text-align: center;
+    height: 50px;
+    border-radius: 2px;
+    border-bottom-left-radius: 2 rem;
+    background-color: aquamarine;
+}
+
+
+.p{
+    vertical-align: middle;
+    text-align: center;
+    height: 50px;
+    border-radius: 2px;
+    border-bottom-left-radius: 2 rem;
+    background-color: aquamarine;
+}
